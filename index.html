@@ -101,13 +101,14 @@
         <div class="w-full lg:w-2/3 flex items-center justify-center">
             <div id="idCard" class="tanssi-card w-full max-w-md rounded-2xl overflow-hidden aspect-[85.6/53.98] flex flex-col p-4 md:p-5 relative">
                 <!-- Header with Tanssi Logo -->
-                <div class="flex-shrink-0 flex justify-between items-center">
-                    <div class="flex items-center gap-2">
-                        <img src="images/Tanssi Logo & Icon _Mesa de trabajo 1 copia 7.png" alt="Tanssi Logo" class="w-8 h-8 md:w-10 md:h-10">
-                        <h2 class="font-black text-lg text-white">Tanssi</h2>
+                <!-- EDITED: Added mb-4 for more space below the header -->
+                <div class="flex-shrink-0 flex justify-between items-center mb-4">
+                    <div class="flex items-center gap-2 ">
+                    <img src="images/Tanssi Logo & Icon -05.png" alt="Tanssi Logo" class="w-auto h-10 md:h-12 self-center">
                     </div>
                     <span class="text-xs tanssi-accent font-mono">COMMUNITY</span>
                 </div>
+                <br>
 
                 <!-- Main Content -->
                 <div class="flex-grow flex items-center gap-4 min-h-0">
@@ -129,13 +130,14 @@
                 </div>
 
                 <!-- Footer with QR and ID -->
-                <!-- EDITED: Added mt-auto to force this element to the bottom -->
+                <br>
+                <div class="w-full border-t border-gray-600 mt-4"></div>
                 <div class="flex-shrink-0 mt-auto pt-3 border-gray-700 flex items-end justify-between gap-4">
                     <div>
                         <p class="text-xs text-gray-400 font-mono">USER ID</p>
                         <p id="userId" class="text-sm text-white font-mono"></p>
                     </div>
-                    <img src="https://api.qrserver.com/v1/create-qr-code/?size=64x64&data=https://www.tanssi.network/&bgcolor=1F2937&color=1DE9B6&qzone=1" alt="QR Code" class="rounded-md">
+                     <img src="images/Tanssi Logo & Icon _Mesa de trabajo 1 copia 7.png" alt="Tanssi Logo" class="w-8 h-8 md:w-10 md:h-10">
                 </div>
                  <!-- Decorative glowing corner elements -->
                 <div class="absolute top-1 left-1 w-4 h-4 border-l-2 border-t-2 border-[#1DE9B6] opacity-50"></div>
